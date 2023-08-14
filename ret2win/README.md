@@ -1,9 +1,9 @@
 ## Solution
 
-### Initial Recon
-
-I did the x86-64 version of this challenge which I don't think was too different from the x86 version of this
+I did the x86-64 version of this challenge which I don't think was too different from the x86 version of this.
 https://ropemporium.com/challenge/ret2win.html
+
+### Initial Recon
 
 running checksec shows that the binary has NX enabled but has canaries turned off
 
