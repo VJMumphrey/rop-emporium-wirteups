@@ -3,4 +3,7 @@ ldflags=Wall
 
 all:
 	gcc ./exploit.c -o exp 
-	./exp
+	./exp | ./write4
+
+clean:
+	rm ./exp
